@@ -1,0 +1,10 @@
+/* src/components/Header.css */
+.header {
+  width: 100vw; /* Si buuxda ugu fidi ballaca viewport-ka */
+  background-color: rgb(17, 0, 0);
+  color: #2196F3;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}

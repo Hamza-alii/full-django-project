@@ -1,0 +1,41 @@
+/* AddProduct.css */
+.add-product-page {
+  display: flex;
+  padding: 20px;
+}
+
+.add-product-page.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.form-container {
+  margin-left: 220px;  /* Iska ilaali in Sidebar uu dul yaallo */
+  flex: 1;
+  padding: 20px;
+}
+
+.product-form input,
+.product-form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.product-form button {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.dark-mode .product-form input {
+  background-color: #1f1f1f;
+  color: white;
+  border: 1px solid #444;
+}
+
+.dark-mode .product-form button {
+  background-color: #333;
+  color: white;
+}
